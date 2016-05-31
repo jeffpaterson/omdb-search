@@ -1,0 +1,56 @@
+body {
+  background-color: #fff;
+  background-repeat: repeat !important;
+  background-attachment: fixed;
+}
+
+.mainDiv {
+  margin-top:70px;
+}
+
+.search-bar {
+  width:100%;
+  max-width:500px;
+  margin-bottom: 25px;
+}
+
+.results {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.movie-poster {
+  float:left;
+  width: 150px;
+  margin-right: 10px;
+  transition: width 1s;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+}
+
+.movieDiv {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.movie-poster:hover {
+  width: 250px;
+}
+
+.span-outer {
+  font-size:20px;
+}
+
+.detailsP {
+  margin-top: 30px;
+}
+
+.innerP {
+  margin:2px;
+}
+
+.ratingP {
+  margin-top: 5px;
+}
